@@ -7,6 +7,7 @@ import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Booking from './pages/Booking';
 import BookingDashboard from './pages/BookingDashboard';
+import ServiceList from './pages/ServicesList';
 
 function ProtectedRoute({ children }) {
   const token = localStorage.getItem('token');
@@ -23,6 +24,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
+            <Route path="/services" element={<ServiceList />} />
             <Route
               path="/bookings"
               element={

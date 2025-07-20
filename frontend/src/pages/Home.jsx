@@ -56,7 +56,7 @@ export default function Home() {
                   <div className="flex justify-between items-center">
                     <span className="font-bold text-blue-600">{service.price}</span>
                     <Link 
-                      to={`/book?service=${service.id}`} 
+                      to={`/services`} 
                       className="text-blue-600 hover:underline"
                     >
                       Book Now
