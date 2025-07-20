@@ -21,6 +21,16 @@ exports.createService = async (req, res) => {
   }
 };
 
+exports.updateService = async (req, res) => {
+  try {
+    if (!req.user.isAdmin) return res.status(403).json({ message: 'Forbidden' });
+    const service = await Service.findByIdAndUpdate({ name: req.body.name });
+    res.status(201).json(service);
+  } catch (err) {
+    res.status(500).json({ message: 'Error updated service' });
+  }
+};
+
 // Update an existing service
 exports.deleteService = async (req, res) => {
   try {
