@@ -57,7 +57,7 @@ This project is a full-stack web application for managing cleaning service booki
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/your-username/cleaning-service-app.git
+git clone https://github.com/Manuja3344/Cleaning-Service-Management-System--CRUD-.git
 cd cleaning-service-app
 ```
 
