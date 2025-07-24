@@ -1,4 +1,4 @@
-# Cleaning Service Management System
+m# Cleaning Service Management System
 
 This project is a full-stack web application for managing cleaning service bookings. It features separate portals for users and administrators.
 
@@ -109,12 +109,6 @@ Ensure your `.env` has the correct `MONGO_URI` and `JWT_SECRET`.
 * Admin token is stored as `admin_token`
 * Normal user token is stored as `token`
 * Route protection and role validation are implemented on both frontend and backend
-
----
-
-## 📫 Submission
-
-Please submit the GitHub repo URL to `careers@metazync.com` as instructed.
 
 ---
 
